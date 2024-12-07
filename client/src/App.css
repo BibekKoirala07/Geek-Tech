@@ -1,0 +1,50 @@
+.main {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.product-list {
+  padding: 1em;
+  border-radius: 12px;
+  background-color: lightcoral;
+}
+
+.total-product {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.each-product {
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background-color: rgb(243, 238, 238);
+  color: black;
+}
+
+span {
+  margin-inline: 1em;
+}
+
+.place-orders {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.place-orders > button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.display-result {
+  border: none;
+  border-radius: 12px;
+}
